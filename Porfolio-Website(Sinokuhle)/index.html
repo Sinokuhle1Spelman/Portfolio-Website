@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/Sira.jpg"
+</head>
+<body>
+  <header>
+    <a href="#" class="logo-holder">
+        <div class="logo">L</div>
+        <div class="logo-text">Portfolio Website</div>
+    </a>
+    <nav>
+       <ul id="menu">
+        <li>
+            <a href="#Home">Home</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#Projects">Projects</a>
+        </li>
+        <li>
+            <a href="mailto:sinokuhle13@gmail.com" class="button">Contact Me</a>
+        </li>
+       </ul>
+       <a href="#" class="mobile-toggle" 
+       onClick="toggleMobileMenu();" title="Open mobile menu">
+          <svg class="w-6 h-6 text-gray-800 
+          dark:text-white" aria-hidden="true" 
+          xmlns="http://www.w3.org/2000/svg"
+           width="24" height="24" fill="none" 
+           viewBox="0 0 24 24">
+        <path stroke="currentColor" 
+        stroke-linecap="round" stroke-width="2" d="M5 7h14M5
+         12h14M5 17h10"/>
+       </svg>
+      </a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="Sira-blue"></div>
+        <div>
+            <h1><small>Hi I'm</small>
+                Sinokuhle Spelman
+            </h1>
+            <p>
+                Design and Developer in Pretoria who is passionate about being a Software Developer and a Data Analyst. <span>
+                I love to create beautiful and functional websites and applications that solve real-world problems which also include things like chatgpt when I am doing my projects these days.
+                </span>
+            </p>
+            <div class="call-to-action">
+                <a href="./imgs/SINOKUHLE SPELMAN CV Resume (1).pdf" class="button black">View Resume</a>
+                <a href="mailto:sinokuhle13@gmail.com" class="button white">Contact Me</a>
+
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <img src="./imgs/github.png" alt="GitHub" width="30px"/>
+                </a>
+                <a href="#" class="social-link">
+                    <img src="./imgs/linkedin.png" alt="LinkedIn" width="30px"/>
+                </a>
+            </div>
+        </div>
+        <div class="Sira-yellow">
+       <img src="./imgs/Sira.jpg" alt="Sira" width="100%"/>
+      </div>
+
+    </section>
+    <section class="logos container">
+        <div class="marquee">
+            <div class="track">
+                <div class="logo-item">
+                    <img src="./imgs/html.png" alt="HTML" width="50px"/>
+                </div>
+                <div class="logo-item">
+                    <img src="./imgs/css.png" alt="CSS" width="50px"/>
+                </div>
+                <div class="logo-item">
+                    <img src="./imgs/javascript.png" alt="JavaScript" width="50px"/>
+                </div>
+                <div class="logo-item">
+                    <img src="./imgs/react.png" alt="React" width="50px"/>
+                </div>
+                <div class="logo-item">
+                    <img src="./imgs/nodejs.png" alt="Node.js" width="50px"/>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills container">
+        <h2>
+            <small>About Me<small>
+                Skills
+        </h2>
+        <div class="holder-blue">
+            <div class="left-column">
+                <h3>Frontend</h3>
+                <p>
+                    I have a diverse skill set that allows me to tackle various challenges in software development and data analysis. Here are some of the key skills I possess:
+                </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+                <h3>Backend</h3>
+                <ul>
+                    <li>nodejs</li>
+                    <li>Express</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+
+
+            </div>
+            <div class="right-column">
+                <h3>A bit about me</h3>
+                <p>
+                    I am a Software Developer and Data Analyst with a passion for creating innovative solutions. My skills include:
+                </p>
+                <ul>
+                    <li>Web Development (HTML, CSS, JavaScript)</li>
+                    <li>Data Analysis (Python, SQL)</li>
+                    <li>Responsive Design</li>
+                    <li>Version Control (Git)</li>
+                    <li>Problem Solving</li>
+                </ul></div>
+
+    
+
+    </section>
+    <section class="Education container">
+        <h2>
+            <small>Recent</small>
+            Education
+        </h2>
+        <div class="High-school">
+            <article>
+            <h3>Ethembeni Enrichment Centre</h3>
+            <div>2018-2022</div>
+            <p>I aquired my National Senior Certificate and along with some achievements during my time</p>
+            </article>
+        </div>
+
+        <div class="Collage">
+            <article>
+            <h3>TVET Collage</h3>
+            <div>2018-2022</div>
+            <p>During my time in High-school, I was taught about cisco netcad and just touched a bit about networking</p>
+            </article>
+        </div>
+
+        <div class="University">
+            <article>
+            <h3>Belgium Campus ITVersity</h3>
+            <div>2023-2026</div>
+            <p>Final year student who is doing a Diploma in Information Technology,an aspiring Software Developer and Database Analyst</p>
+            </article>
+        </div>
+
+    </section>
+    <section id="Projects" class="bento container">
+        <h2>
+            <small>
+                Projects
+            </small>
+        </h2>
+        <div class="bento-grid">
+            <div class="bento-item">
+                <h3>Website Portfolio</h3>
+                <img src="./imgs/bento1.jpg" alt="" width="100%">
+                <p>A brief description of the project, its purpose, and technologies used.</p>
+            </div>
+            <div class="bento-item">
+                <h3>Recipe Website</h3>
+                <img src="./imgs/bento2.jpg" alt="" width="100%">
+                <p>A brief description of the project, its purpose, and technologies used.</p>  
+            <div class="bento-item">
+                <h3>Student and Lecturer Management System</h3>
+                <img src="./imgs/bento3.jpg" alt="" width="100%">
+                <p>A brief description of the project, its purpose, and technologies used.</p>
+        </div>
+    </section>
+    <section class="chatbot container">
+        <h2>
+            <small>
+                Talk to me
+            </small>
+            chatbot
+        </h2>
+        <div class="chatbot-blue">
+        <div class="chat-info">
+           <h3>Azure AI Chatbot</h3>
+           <p> I have put together a chatbot here which knows all my skills, education and has a copy of my resume.You can use it to ask questions about me to get a better idea of who I am and what I have done.</p>
+           <p>You can also download my resume here if you want to take a look at it.I am currently looking for new opportunities so if you have a project you think I would be a good fit for, please get in touch!</p>
+           <a href="./imgs/SINOKUHLE SPELMAN CV Resume (1).pdf" class="button black">Download Resume</a>
+        </div>
+        <div class="chat-box">
+         <div class="scroll-area">
+            <ul id="chat-log">
+              <li>
+                <span class="avatar user">User</span>
+                <div class="message">
+                    I have a question to ask you this resume
+                </div>
+              </li>
+            </ul>
+         </div>
+         <div class="chat-message">
+            <input type="text" placeholder="Hey Sinokuhle,what skills are you best at?">
+            <button class="button black">Send</button>
+         </div>  
+        </div>
+        </div>
+    </section>
+  </main>
+</body>
+</html>
